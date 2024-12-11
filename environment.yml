@@ -1,0 +1,18 @@
+name: ece537-venv
+dependencies:
+  - python==3.7
+  - conda-forge::ffmpeg
+  - conda-forge::sox
+  - conda-forge::matplotlib==3.5.3
+  - conda-forge::librosa==0.8.1
+  - conda-forge::pydub==0.25.1
+  - conda-forge::chardet
+  - conda-forge::importlib-resources==5.12.0
+  - pip:
+    - nussl==1.1.9
+    - numpy==1.21.6
+    - scipy==1.7.3
+    - scikit-learn==1.0.2
+
+
+  
